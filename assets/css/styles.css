@@ -1,10 +1,75 @@
 /* General Styles */
 /* Apply to all sizes */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
+*, *:before, *:after {box-sizing: border-box; padding: 0; margin: 0;}
 
 
 /* Add Breakpoints Here */
 /* Apply to certain size and above */
 
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+h4 {
+    
+}
+
+h5 {
+    
+}
+
+h6 {
+    
+}
+
+.responsive_image {
+    width: 100%;
+    height: 100%;
+    max-width: 20%;
+}
+
+.flex_center {
+    display: flex;
+    justify-content: center;
+}
+
+.top_section {
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.trombone_video {
+}
+
+/* Form */
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    100px;
+}
+
+input[type-'email'] {
+    border-radius: 1px;
+    padding: 5px;
+}
+
+input[type='submit'] {
+    background-color: #fcc603;
+    font-size: 1.1em;
+    font-weight: 900;
+    border: none;
+    padding: 5px 20px 5px 20px;
+}
