@@ -108,6 +108,15 @@
         margin-bottom: 100px;
     }
     
+    .pricing {
+        margin-bottom: 30px;
+    }
+
+    .price_section {
+        margin: 0 7px 0 7px;
+        border: solid 1px;
+    }
+    
     input[type='email'] {
         border-radius: 1px;
         border: solid 1px gray;
@@ -215,6 +224,17 @@
     .trombone_video {
         border: solid 1px;
         margin-bottom: 100px;
+    }
+    
+    .pricing {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .price_section {
+        margin: 0 7px 50px 7px;
+        border: solid 1px;
     }
 
     .footer {
@@ -326,7 +346,18 @@
         border: solid 1px;
         margin-bottom: 100px;
     }
+    
+    .pricing {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
 
+    .price_section {
+        margin: 0 7px 0 7px;
+        border: solid 1px;
+    }
+    
     .footer {
         background-color: lightgray;
     }
